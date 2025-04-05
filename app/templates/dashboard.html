@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><title>GhostTrace Dashboard</title></head>
+<body>
+  <h1>🧠 GHOSTTRACE</h1>
+  <div>
+    <form id="chat-form" method="post" action="/chat">
+      <input type="text" name="prompt" placeholder="Ask GhostTrace something...">
+      <input type="submit" value="Send">
+    </form>
+    <div id="response-box"></div>
+  </div>
+  <hr>
+  <h3>🛠️ Preinstalled Tools</h3>
+  <ul>
+    <li><button onclick="alert('Running background check...')">Background Check</button></li>
+    <li><button onclick="alert('Launching subdomain scan...')">Subdomain Enum</button></li>
+  </ul>
+</body>
+</html>
