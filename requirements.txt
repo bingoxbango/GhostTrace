@@ -1,1 +1,4 @@
 https://github.com/hahwul/WebHackersWeapons/tree/main/weapons
+requests
+beautifulsoup4
+stem
